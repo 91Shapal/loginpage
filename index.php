@@ -52,7 +52,7 @@
     <script>function checkValid() {
              let name = document.getElementById('fname');
              let password = document.getElementById('password');
-             if(name.value == 'Aidin' && password.value == 123)
+             if(name.value == 'Aidin' && password.value == '123')
              {
                  window.location.href = "https://shapal77.herokuapp.com";
                 pageRedirect();
