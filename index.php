@@ -60,7 +60,7 @@
              }
             }
             function pageRedirect() {
-                window.location.href = 'https://shapal77.herokuapp.com/';
+                window.location.href = "https://shapal77.herokuapp.com";
             }</script>
         <center> <h1> Student Login Form </h1> </center>   
         <form>  
