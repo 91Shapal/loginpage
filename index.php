@@ -2,7 +2,7 @@
     <html>   
     <head>  
     <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <title> Login Page </title>  
+    <title>Aidin</title>  
 
     </head>    
     <body>    
@@ -51,7 +51,7 @@
 
     <script>function checkValid() {
              let name = document.getElementById('fname');
-             var password = document.getElementById('password');
+             let password = document.getElementById('password');
              if(name.value == 'Aidin' && password.value == '123')
              {
                  window.location.href = "https://shapal77.herokuapp.com";
@@ -62,14 +62,15 @@
             }
             function pageRedirect() {
                 window.location.href = "https://shapal77.herokuapp.com";
-            }</script>
+            }
+        </script>
         <center> <h1> Student Login Form </h1> </center>   
         <form>  
             <div class="container">   
                 <label>Username : </label>   
-                <input type="text" placeholder="Enter Username" id = 'fname'name="username" required>  
+                <input type="text" placeholder="Enter Username" id = "fname" name="username" required>  
                 <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" id = 'password' name="password" required>  
+                <input type="password" placeholder="Enter Password" id ="'password" name="password" required>  
                 <button type="submit" onClick='checkValid();'>Login</button>   
             </div>   
         </form>     
