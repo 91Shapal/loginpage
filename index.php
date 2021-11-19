@@ -54,13 +54,14 @@
              var password = document.getElementById('password');
              if(name.value == 'Aidin' && password.value == '123')
              {
+                 window.location.href = "https://shapal77.herokuapp.com";
                 pageRedirect();
              }else{
                  alert('Invalid');
              }
             }
             function pageRedirect() {
-                window.location.replace = ("https://shapal77.herokuapp.com");
+                window.location.href = "https://shapal77.herokuapp.com";
             }</script>
         <center> <h1> Student Login Form </h1> </center>   
         <form>  
