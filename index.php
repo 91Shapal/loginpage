@@ -3,7 +3,10 @@
     <head>  
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <title> Login Page </title>  
-    <style>   
+
+    </head>    
+    <body>    
+        <style>   
     body {  
       font-family: Calibri, Helvetica, sans-serif;  
       background-color: pink;  
@@ -45,8 +48,6 @@
             background-color: lightblue;  
         }   
     </style>   
-    </head>    
-    <body>    
 
     <script>function checkValid() {
              let name = document.getElementById('fname');
