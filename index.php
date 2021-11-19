@@ -31,7 +31,7 @@
     <script>function checkValid() {
              let name = document.getElementById('fname');
              var password = document.getElementById('password');
-             if(name.value == 'almaz' && password.value == '1023')
+             if(name.value == 'aidin' && password.value == '123')
              {
                 pageRedirect();
              }else{
